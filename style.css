@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap");
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titre {
+  font-family: "Piedra", cursive;
+  color: rgb(61, 57, 57);
+}
+
+body {
+  background-color: lightblue;
+}
+
+p {
+  font-family: "Merienda", cursive;
+}
+
+form {
+  font-family: "Merienda", cursive;
+}
+
+h1 {
+  font-size: 54px;
+  color: white;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  font-family: "Merienda", cursive;
+  color: rgb(61, 57, 57);
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  background-color: rgb(61, 57, 57);
+  justify-content: space-around;
+  padding: 12px;
+}
+
+ul li {
+  list-style: none;
+  font-family: "Piedra", cursive;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li a:hover {
+  color: skyblue;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+#héros {
+  height: 500px;
+  background-image: url("assets/colchis2.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+#inventory {
+  font-family: "Merienda", cursive;
+  color: rgb(61, 57, 57);
+}
+
+#famille {
+  font-family: "Merienda", cursive;
+  text-align: center;
+  color: rgb(61, 57, 57);
+}
